@@ -7,9 +7,15 @@ This repository hosts the official releases for the **MyLab Server Middleware**,
 ## 🚀 Installation & Setup
 
 ### 1. Download Latest Release
-Go to the [Releases Page](../../releases/latest) and download the executable for your operating system:
-- **Windows**: `lab-middleware-win.exe`
-- **macOS**: `lab-middleware-macos`
+Go to the [Releases Page](../../releases/latest) and download the file bundle for your OS.
+
+**For Windows (Required Files):**
+1. `lab-middleware-win.exe` (Application)
+2. `better_sqlite3.node` (Required Native Library)
+3. `start-exe-hidden.vbs` (Startup Script)
+
+**macOS:**
+- `lab-middleware-macos`
 
 ### 2. Configuration & Linking
 The Cloud URL is pre-configured. You only need to link your specific Lab Account.
@@ -22,10 +28,10 @@ The Cloud URL is pre-configured. You only need to link your specific Lab Account
 
 ### 3. Running the Middleware
 **Windows:**
-Double-click `lab-middleware-win.exe` or run from PowerShell:
-```powershell
-.\lab-middleware-win.exe
-```
+- **Standard Mode**: Double-click `lab-middleware-win.exe` (Runs with a visible window).
+- **Background Mode**: Double-click `start-exe-hidden.vbs` (Runs silently in background).
+
+To stop the background process, use Task Manager or restart the computer.
 
 **macOS:**
 Open Terminal and run:
