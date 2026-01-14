@@ -5,7 +5,7 @@ Official binary releases for the **LIMS.life Middleware**.
 ## 🚀 Installation & Setup
 
 ### 1. Download
-Go to the [Releases Page](../../releases/latest) and download **`LIMS.life-Windows.zip`**.
+Go to the [Releases Page](../../releases/latest) and download **`LIMS.life.zip`**.
 
 ### 2. Install
 1. Extract the zip file to a folder (e.g., `C:\LIMS.life`).
